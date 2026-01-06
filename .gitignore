@@ -211,3 +211,7 @@ venv/
 pyvenv.cfg
 
 artifact/*
+mlruns/*
+
+*.pkl
+*.npy
