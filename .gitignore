@@ -209,3 +209,5 @@ __marimo__/
 visa/
 venv/
 pyvenv.cfg
+
+artifact/*
