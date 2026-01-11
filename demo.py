@@ -1,3 +1,9 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 from us_visa.pipline.training_pipeline import TrainPipeline
-obj= TrainPipeline()
-obj.run_pipeline()
+
+if __name__ == "__main__":
+    obj = TrainPipeline()
+    obj.run_pipeline()
