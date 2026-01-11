@@ -29,7 +29,11 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 
 ```
+## CI/CD & Deployment Status
 
+- This project is wired with a full production-grade CI/CD pipeline using GitHub Actions, Docker, AWS ECR, and EC2. The pipeline builds and pushes Docker images to ECR and deploys them to a self-hosted EC2 runner for live serving.
+
+- Cloud resources have been intentionally decommissioned to avoid unnecessary AWS charges, so the deployment workflow is currently disabled. The infrastructure-as-code and workflow definitions are retained in the repository to demonstrate the complete MLOps setup and can be re-enabled at any time.
 
 ## AWS-CICD-Deployment-with-Github-Actions
 
